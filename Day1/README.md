@@ -20,3 +20,6 @@ Enter the value of N, i.e the chess square size: 8
 ```
 
 To do: Check feasibilty to optimize to improve the speed of calculation 
+
+References: https://en.wikipedia.org/wiki/Knight%27s_tour
+https://www.geeksforgeeks.org/the-knights-tour-problem/
