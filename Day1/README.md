@@ -7,6 +7,7 @@ Implementing the solution using depth-first search (DFS) - this includes explori
 
 Sample output:
 
+```
 Enter the value of N, i.e the chess square size: 8
 [0, 59, 38, 33, 30, 17, 8, 63]
 [37, 34, 31, 60, 9, 62, 29, 16]
@@ -16,5 +17,6 @@ Enter the value of N, i.e the chess square size: 8
 [47, 50, 45, 54, 25, 20, 11, 14]
 [56, 43, 52, 3, 22, 13, 24, 5]
 [51, 46, 55, 44, 53, 4, 21, 12]
+```
 
 To do: Check feasibilty to optimize to improve the speed of calculation 
