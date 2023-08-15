@@ -1,0 +1,60 @@
+# -*-perl-*-
+
+package.A9SearchCloudClientPy = {
+    interfaces = (1.0);
+    scope = search;
+
+    build-system = brazilpython;
+
+    build-tools = {
+        1.0 = {
+            BrazilPython = 3.0;
+            Epydoc = 3.0.1;
+        };
+    };
+
+    dependencies = {
+        1.0 = {
+          # Deploy the default python interpreter for your versionset. This
+          # guarantees `$ENVROOT/bin/python` will exist in your deployment.
+          Python = default;
+        };
+    };
+
+    runtime-dependencies = {
+        1.0 = {
+            A9SearchAWSUtilPy = 1.0;
+            CloudSearchUtilPy = 1.0;
+            A9SearchSWFPy    = 1.0;
+            Python-elasticsearch = 1.9.0;
+            ElasticsearchPy2 = 1.1;
+            ElasticsearchPy5 = 1.1;
+            ElasticsearchPy6 = 1.1;
+            ElasticsearchPy7 = 1.1;
+            Python-simplejson = 3.x;
+        };
+    };
+
+    deploy = {
+        generic = true;
+    };
+
+    test-dependencies = {
+        1.0 = {
+            BrazilPython-Nose = 1.x.x;
+            Coverage = 4.x;
+            Python-Mock = 3.x;
+        };
+    };
+
+    resolves-conflict-dependencies = {
+        1.0 = {
+             Zlib = 1;
+        };
+    };
+  
+    targets = {
+       python = { type = python; };
+    };
+};
+
