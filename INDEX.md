@@ -1,5 +1,5 @@
 
-Day1: Knight's Tour Problem \n
+Day1: Knight's Tour Problem 
 
 Day2: Word Search Problem
 
