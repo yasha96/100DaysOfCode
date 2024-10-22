@@ -1,0 +1,1 @@
+I have pushed first 2 commits into the branch. Later on, i have committed 8 more changes in 8 separate commits. I then squash the last 10 commits. Will the first 2 pushed changes too get squashed and show up as a singel commit? 
